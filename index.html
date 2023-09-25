@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slide Show Test</title>
-    <link rel="stylesheet" href="test.css"> <!-- CSSファイルのパスを設定 -->
+    <!-- デザインに関するファイル(CSS)を読み込む -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 動きに関するファイル(JavaScript)を読み込む -->
+    <script src="script.js" defer></script>
 
     <style>
         body {
             margin: 0;
             padding: 0;
-            overflow: hidden;
+            overflow: visible;
         }
     </style>
 </head>
@@ -24,5 +27,11 @@
         <div class="slideshow-image" style="background-image: url('C2CABD3D-920C-4080-AA84-73B97FF06AD6.jpeg')"></div>
         <div class="slideshow-image" style="background-image: url('IMG_4701.jpeg')"></div>
     </div>
+
+    <!-- カウントダウン -->
+    <a class="btn" id="cd-btn" onclick="showCountdown()">START COUNTDOWN</a>
+    <h2>開催まで...</h2>
+    <p id="countdown"></p>
+
 </body>
 </html>
