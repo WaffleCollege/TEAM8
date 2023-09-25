@@ -293,3 +293,23 @@ h2 {
   line-height: 2.0;
   display: inline-block;
 }
+/SNS/
+ul {
+  text-align: right;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  list-style: none;
+}
+li{
+  list-style:none;
+  float:left;
+  margin:2px;
+  margin-top:5px;
+  padding:8px;
+  display: inline;
+}
+img{
+  width:30px;
+  height:auto;
+}
