@@ -1,6 +1,8 @@
 'use strict'
 // Please don't delete the 'use strict' line above
 
+//カウントダウン
+
 function set2fig(num){
     //数値が1桁だったら2桁にして返す
     let ret;
@@ -60,4 +62,4 @@ function showCountDown(){
 
 }
 
-setInterval(showCountDown,1000);k
+setInterval(showCountDown,1000);
