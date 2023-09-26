@@ -382,36 +382,45 @@ height: 51px;
 height: 77px;
 }
 /*基本情報*/
-h5 {
-color: #ffffff;
+
+
+h4 {
+color: #0f0e0e;
 font-family:'Kosogi';
 text-align:left;
 font-size:30px;
-  margin-left:40px;
-margin-right:auto;
+  /* margin-left:40px;
+margin-right:auto; */
+/* margin: 0 auto; */
+text-align:  center;
 }
-h6{
-color:#ffffff;
+h5{
+color:#0d0c0c;
 font-family:'Kosugi';
 text-align:left; 
 font-size:30px;
+/* margin-left:40px;
+margin-right:auto; */
+text-align:  center;
+}
+
+/* h{
+color:#0f0f0f;
+font-family:'Kosugi';
+text-align:left; 
+font-size:30px;
+margin-left:40px;
+margin-right:auto;
+} */
+div{
+color:#0e0e0e;
+font-size:20px;
 margin-left:40px;
 margin-right:auto;
 }
 
-h7{
-color:#ffffff;
-font-family:'Kosugi';
-text-align:left; 
-font-size:30px;
-margin-left:40px;
-margin-right:auto;
-}
-div{
-  color:#ffffff;
-font-size:20px;
-margin-left:40px;
-margin-right:auto;
+.accesss{
+margin: 0 auto;
 }
   
 /*三本線ハンバーガー*/
