@@ -455,3 +455,10 @@ bottom: 10px;
 #humberger div:nth-of-type(3) {
 bottom: 0;
 }
+
+/*カウントダウン*/
+#countdown {
+  text-align: center; /* テキストを中央揃えにする */
+  font-size: 36px; /* フォントサイズを大きくする */
+  font-family:'Kosugi';
+}
