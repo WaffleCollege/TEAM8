@@ -19,7 +19,7 @@ function showCountDown(){
     let nowDate = new Date();
     let dnumNow = nowDate.getTime();
 
-    let targetDate = new Date(2023, 9, 22, 19); 
+    let targetDate = new Date(2024, 0, 6, 11); 
     // Year / Month / Day / Hour
     let dnumTarget = targetDate.getTime();
     
