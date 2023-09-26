@@ -1,0 +1,443 @@
+/* トップに来るイメージ */
+.topimages {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    background-size: 100% 100%; /* 写真を100％の倍率で表示 */
+}
+
+.topimages img{
+    width: 100%;
+}
+
+.topimage-p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%);
+    z-index: 99;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
+    padding: 1em 2em;
+    line-height: 2.0;
+    font-size: 2em;
+    color: black;
+}
+
+
+/* スライドショー */
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.slideshow-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: no-repeat 50% 50%;
+    background-size: cover;
+    -webkit-animation-name: kenburns;
+            animation-name: kenburns;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 16s;
+            animation-duration: 16s;
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+/* スライドショー画像の個別設定 */
+.slideshow-image:nth-child(1) {
+    -webkit-animation-name: kenburns-1;
+            animation-name: kenburns-1;
+    z-index: 3;
+}
+
+.slideshow-image:nth-child(2) {
+    -webkit-animation-name: kenburns-2;
+            animation-name: kenburns-2;
+    z-index: 2;
+}
+
+.slideshow-image:nth-child(3) {
+    -webkit-animation-name: kenburns-3;
+            animation-name: kenburns-3;
+    z-index: 1;
+}
+
+.slideshow-image:nth-child(4) {
+    -webkit-animation-name: kenburns-4;
+            animation-name: kenburns-4;
+    z-index: 0;
+}
+
+@-webkit-keyframes kenburns-1 {
+    0% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    1.5625% {
+      opacity: 1;
+    }
+    23.4375% {
+      opacity: 1;
+    }
+    26.5625% {
+      opacity: 0;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.2);
+    }
+    98.4375% {
+      opacity: 0;
+      transform: scale(1.2117647059);
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  
+@keyframes kenburns-1 {
+    0% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    1.5625% {
+      opacity: 1;
+    }
+    23.4375% {
+      opacity: 1;
+    }
+    26.5625% {
+      opacity: 0;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.2);
+    }
+    98.4375% {
+      opacity: 0;
+      transform: scale(1.2117647059);
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+@-webkit-keyframes kenburns-2 {
+    23.4375% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    26.5625% {
+      opacity: 1;
+    }
+    48.4375% {
+      opacity: 1;
+    }
+    51.5625% {
+      opacity: 0;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.2);
+    }
+}
+
+@keyframes kenburns-2 {
+    23.4375% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    26.5625% {
+      opacity: 1;
+    }
+    48.4375% {
+      opacity: 1;
+    }
+    51.5625% {
+      opacity: 0;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.2);
+    }
+}
+
+@-webkit-keyframes kenburns-3 {
+    48.4375% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    51.5625% {
+      opacity: 1;
+    }
+    73.4375% {
+      opacity: 1;
+    }
+    76.5625% {
+      opacity: 0;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.2);
+    }
+}
+
+@keyframes kenburns-3 {
+    48.4375% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    51.5625% {
+      opacity: 1;
+    }
+    73.4375% {
+      opacity: 1;
+    }
+    76.5625% {
+      opacity: 0;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.2);
+    }
+}
+
+@-webkit-keyframes kenburns-4 {
+    73.4375% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    76.5625% {
+      opacity: 1;
+    }
+    98.4375% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1);
+    }
+}
+
+@keyframes kenburns-4 {
+    73.4375% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    76.5625% {
+      opacity: 1;
+    }
+    98.4375% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1);
+    }
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+
+/* カウントダウン */
+
+.btn {
+  display: block;
+  width: 200px;
+  margin: 0 auto; /* 左右中央に配置 */
+  text-align: center;
+  padding: 10px 20px;
+  background-color: antiquewhite;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+h2 {
+  position: absolute;
+  left: 50%;
+  transform: translate3d(-50%, -50%);
+  z-index: 99;
+  text-align: center;
+  font-family: Georgia, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
+  padding: 1em 2em;
+  line-height: 2.0;
+  display: inline-block;
+}
+/*SNS*/
+ul {
+  text-align: right;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  list-style: none;
+}
+li{
+  list-style:none;
+  float:left;
+  margin:2px;
+  margin-top:5px;
+  padding:8px;
+  display: inline;
+}
+img{
+  width:30px;
+  height:auto;
+}
+
+
+/* タイムテーブル*/
+caption {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.tableBox{
+  margin: 0 10px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none;
+}
+
+
+th {
+  border: 1px solid #fff;
+  width: 70px;
+  font-size:12px;
+  color: #fff;
+  text-align: center;
+  background-color: #26292f;
+  vertical-align: top;
+}
+td {
+  border: 2px solid #fff;
+  color: #fff;
+  height: 25px;
+  padding: 0 10px;
+  font-size: 14px;
+  text-align: center;
+  background: #ddded7;
+}
+.borderNone {
+  border-bottom: 1px solid #26292f;
+}
+.tableBox th.line1 {
+  padding-top: 7px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+}
+.color01{
+  background-color: #9dacc9;
+  color: #232121;
+  font-weight: bold;
+}
+.color02 {
+  background: #152c40;
+}
+.line2 {
+  height: 51px;
+}
+.line3 {
+  height: 77px;
+}
+/*基本情報*/
+h5 {
+  color: #ffffff;
+  font-family:'Kosogi';
+  text-align:left;
+  font-size:30px;
+    margin-left:40px;
+  margin-right:auto;
+}
+h6{
+  color:#ffffff;
+  font-family:'Kosugi';
+  text-align:left; 
+  font-size:30px;
+ margin-left:40px;
+  margin-right:auto;
+}
+
+h7{
+ color:#ffffff;
+  font-family:'Kosugi';
+  text-align:left; 
+  font-size:30px;
+ margin-left:40px;
+  margin-right:auto;
+}
+div{
+    color:#ffffff;
+  font-size:20px;
+  margin-left:40px;
+  margin-right:auto;
+}
+    
+/*三本線ハンバーガー*/
+#humberger {
+  position: relative;
+  height: 20px;
+  width: 28px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#humberger div {
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 28px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#humberger div:nth-of-type(1) {
+  bottom: 20px;
+}
+#humberger div:nth-of-type(2) {
+  bottom: 10px;
+}
+#humberger div:nth-of-type(3) {
+  bottom: 0;
+}
