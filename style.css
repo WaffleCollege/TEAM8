@@ -384,13 +384,32 @@ h5 {
   font-family:'Kosogi';
   text-align:left;
   font-size:30px;
+    margin-left:40px;
+  margin-right:auto;
 }
 h6{
   color:#ffffff;
   font-family:'Kosugi;
   text-align:left; 
   font-size:30px;
+ margin-left:40px;
+  margin-right:auto;
 }
+h7{
+ color:#ffffff;
+  font-family:'Kosugi;
+  text-align:left; 
+  font-size:30px;
+ margin-left:40px;
+  margin-right:auto;
+}
+div{
+    color:#ffffff;
+  font-size:20px;
+  margin-left:40px;
+  margin-right:auto;
+}
+    
 /*三本線ハンバーガー*/
 #humberger {
   position: relative;
