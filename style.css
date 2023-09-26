@@ -6,6 +6,7 @@
   overflow: hidden;
   margin: 0 auto;
   background-size: 100% 100%; /* 写真を100％の倍率で表示 */
+  text-align: center;
 }
 
 .topimages img{
@@ -16,7 +17,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate3d(-50%, -50%);
+  transform: translate(-50%, -50%);
   z-index: 99;
   text-align: center;
   font-family: Georgia, sans-serif;
@@ -29,8 +30,6 @@
   font-size: 2em;
   color: black;
 }
-
-
 /* スライドショー */
 .slideshow {
   position: relative;
@@ -386,17 +385,23 @@ height: 77px;
 }
 
 /*基本情報*/
-h4 {
+.information{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.information h4{
 color: #0f0e0e;
 font-family:'Kosogi';
 font-size:30px;
-text-align:  center;
+text-align: center;
 }
-h5{
+
+.information h5{
 color:#0d0c0c;
 font-family:'Kosugi';
 font-size:30px;
-text-align:  center;
+text-align: center;
 }
 
 div{
@@ -421,7 +426,9 @@ box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
 padding: 1em 2em;
 line-height: 2.0;
 display: inline-block;
+margin: 0 auto;
 }
+
 .accesss{
 margin: 0 auto;
 text-align:  center;
@@ -457,6 +464,11 @@ bottom: 0;
 }
 
 /*カウントダウン*/
+.countdown_info h4{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 #countdown {
   text-align: center; /* テキストを中央揃えにする */
   font-size: 36px; /* フォントサイズを大きくする */
