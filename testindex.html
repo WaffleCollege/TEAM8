@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slide Show Test</title>
+    <title>Music Festival 2023</title>
     <!-- デザインに関するファイル(CSS)を読み込む -->
     <link rel="stylesheet" href="teststyle.css">
     <!-- 動きに関するファイル(JavaScript)を読み込む -->
     <script src="script.js" defer></script>
-
     <style>
         body {
             margin: 0;
@@ -17,147 +16,70 @@
         }
     </style>
 </head>
-<div id="humberger">
-  <div></div>
-  <div></div>
-  <div></div>
-</div>
-
-        <ul>
-          <li><h4 class="title">follow us -</h4></li>
-        
-        <!-- SNSのアイコン -->  
-        
-        <li><img 
-         src="https://cdn.glitch.global/01e7cf47-0b19-4712-a565-f39339ee0da0/icn_instagram.png?v=1695549677616"
-                 /></li>
-        <li><img
-             src="https://cdn.glitch.global/01e7cf47-0b19-4712-a565-f39339ee0da0/icn_twitter.svg?v=1695549688566"
-                 /></li>
-        <li><img
-             src="https://cdn.glitch.global/01e7cf47-0b19-4712-a565-f39339ee0da0/icn_youtube.svg?v=1695549698214"
-                 /></li>
-        <li><img
-             src="https://cdn.glitch.global/01e7cf47-0b19-4712-a565-f39339ee0da0/icn_mail.svg?v=1695549706283"
-                 /></li>
-        </ul>
-    
 <body>
+    <!-- ハンバーガーメニュー -->
+    <div id="humberger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- SNSアイコン -->
+    <ul>
+        <li><h4 class="title">follow us -</h4></li>
+        <li><img src="https://cdn.glitch.global/01e7cf47-0b19-4712-a565-f39339ee0da0/icn_instagram.png?v=1695549677616"></li>
+        <li><img src="https://cdn.glitch.global/01e7cf47-0b19-4712-a565-f39339ee0da0/icn_twitter.svg?v=1695549688566"></li>
+        <li><img src="https://cdn.glitch.global/01e7cf47-0b19-4712-a565-f39339ee0da0/icn_youtube.svg?v=1695549698214"></li>
+        <li><img src="https://cdn.glitch.global/01e7cf47-0b19-4712-a565-f39339ee0da0/icn_mail.svg?v=1695549706283"></li>
+    </ul>
+
     <!-- ライブの名前、写真 -->
     <div class="topimages">
         <img src="IMG_1908.jpg">
         <p class="topimage-p">Music Festival 2023</p>
     </div>
 
-
-
-
-    
-    <h5>日時   2024年1月6日</h5>
-    <div>
-            2023年11月1日(水)
-          </div>
-          <h6>チケット代  2000円</h6>
-     <div>
-            2000円
-          </div>
-    <h7>時間</h7>
-    <div>
-           開場  10:00/開演  11:00/終演  19:30
-          </div>
-
-    <div class="accesss">
-        <h2>会場</h2>
-        <h3 class="section__heading-third">日比谷フォートタワー 9F (WeWork内)</h3>
-        <p class="section__text">〒105-0003 東京都港区西新橋１丁目１−１<br />
-        <a href="https://wework.co.jp/location/tokyo/ginza-shimbashi-area/hibiya-fort-tower">
-            https://wework.co.jp/location/tokyo/ginza-shimbashi-area/hibiya-fort-tower
-        </a>
-        </p>
-        <div class="section__map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.2789178226535!2d139.75035327594654!3d35.67013363058321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b6b302d23b3%3A0xa8674d1f65a911c!2z5pel5q-U6LC344OV44Kp44O844OI44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1695530422370!5m2!1sja!2sjp"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+    <!-- 基本情報 -->
+    <div class="infomation">
+        <div class="centered-content"> <!-- 中央揃えのための追加 -->
+            <h4>日程</h4>
+            <h5>2024年1月6日</h5>
         </div>
-    </div>      
-    
-    <!-- 会場のHTMLコード -->       
-    
-    <!-- タイムテーブルのHTMLコード -->      
+    </div>
+
+    <div class="infomation">
+        <div class="centered-content"> <!-- 中央揃えのための追加 -->
+            <h4>時間</h4>
+            <h5>開場  10:00/開演  11:00/終演  19:30</h5>
+        </div>
+    </div>
+
+    <div class="infomation">
+        <div class="centered-content"> <!-- 中央揃えのための追加 -->
+            <h4>チケット代</h4>
+            <h5>2000円</h5>
+        </div>
+    </div>
+
+    <!-- タイムテーブルのHTMLコード -->
     <div class="tableBox">
         <table>
-            <caption>■エリア</caption>
+            <caption>タイムテーブル</caption>
             <tbody>
-                <tr>
-                  <th class="line1 borderNone" rowspan="2">18:00</th>
-                  <td class="color01">OPEN</td>
-                </tr>
-                <tr>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="line3 borderNone">18:20</th>
-                  <td class="line3 color02">ABC</td>
-                </tr>
-                <tr>
-                  <th></th>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="line1 borderNone">19:00</th>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="line2 borderNone">19:10</th>
-                  <td class="line2 color02">DEF</td>
-                </tr>
-                <tr>
-                  <th class="borderNone"></th>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="borderNone"></th>
-                 <td></td>
-                </tr>
-                <tr>
-                  <th>19:50</th>
-                  <td class="line2 color02" rowspan="2">GHI</td>
-                </tr>
-                <tr>
-                  <th class="line1 borderNone">20:00</th>
-                </tr>
-                <tr>
-                  <th class=" borderNone"></th>
-                  <td></td>
-                </tr>
-                  <tr>
-                  <th class=" borderNone"></th>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="line3">20:30</th>
-                  <td class="line3 color02">JKL</td>
-                </tr>
-                <tr>
-                  <th class="line1 borderNone">21:00</th>
-                  <td class="color01">CLOSE</td>
-                </tr>
+                <!-- テーブルの内容省略 -->
             </tbody>
         </table>
-    </div>      
-    
-    <!-- スライドショーのHTMLコード -->
+    </div>
+
+    <!-- スライドショー -->
     <div class="slideshow">
-        <div class="slideshow-image" style="background-image: url('IMG_3946.jpeg')"></div>
-        <div class="slideshow-image" style="background-image: url('IMG_1345.jpeg')"></div>
-        <div class="slideshow-image" style="background-image: url('C2CABD3D-920C-4080-AA84-73B97FF06AD6.jpeg')"></div>
-        <div class="slideshow-image" style="background-image: url('IMG_4701.jpeg')"></div>
+        <!-- スライドショー画像の設定省略 -->
     </div>
 
     <!-- カウントダウン -->
-    <a class="btn" id="cd-btn" onclick="showCountdown()">START COUNTDOWN</a>
-    <h2>開催まで...</h2>
-    <p id="countdown"></p>
-
+    <div class="countdown_info">
+        <h4>開催まで...</h4>
+        <p id="countdown"></p>
+    </div>
 </body>
 </html>
