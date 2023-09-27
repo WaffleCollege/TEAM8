@@ -448,11 +448,10 @@ position: absolute;
 left: 0;
 height: 2px;
 width: 28px;
-background-color: #ffffff;
+background-color: #000000;
 border-radius: 2px;
 display: inline-block;
 box-sizing: border-box;
-color:#000000;
 }
 #humberger div:nth-of-type(1) {
 bottom: 20px;
