@@ -474,3 +474,19 @@ bottom: 0;
   font-size: 36px; /* フォントサイズを大きくする */
   font-family:'Kosugi';
 }
+nav{
+  width: 1510px;
+  background-color: #232323;
+  margin-top:0;
+}
+ul1{
+ display: flex;
+ justify-content: center;
+  align-items: center;
+
+}
+li1{
+  list-style: none;
+  margin-left: 150px;
+  color:#ffffff;
+}
